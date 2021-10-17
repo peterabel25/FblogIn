@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(236, 234, 234);
+}
+footer{
+    background-color: honeydew;
+    position: absolute;
+    top: 100%;
+    bottom: 0%;
+    border: 1px solid grey;
+    
+}
+.heading{
+    color: rgb(50, 50, 216);
+font-size: 50px;
+font-weight: bolder;
+}
+
+.para1{
+    font-size: 30px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+form{
+    border: 1px solid;
+    border-radius: 5%;
+    background-color: cornsilk;
+    margin-top: 30px;
+    padding:50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.loginbtn {
+    background-color: rgb(36, 36, 155);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 8px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .akauntimpya {
+    background-color: rgb(31, 189, 16);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 50px;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+  }
+  .text1{
+      border-bottom: 1px solid grey;
+      color: rgb(31, 31, 241);
+  }
+
+
+  .lang ul {
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+  li{
+      list-style-type: none;
+  }
+
+  .options ul {
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+ 
